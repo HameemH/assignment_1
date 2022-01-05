@@ -45,11 +45,12 @@ h1{
 h1 span{
     color: lightsalmon;
 }
+/* though there is no need of id in section 2 but i added it out of curosity now whenever i am trying to delete the id the section misbehaves(divs border margin padding goes off) that's why i am keeping the id with the class which will be same for each section*/
 #sec2 div{
     display: flex;
 }
 .sec2_div{
-    border-radius: 10px;
+    border-radius: 20px;
     border: 2px solid;
     padding: 40px 75px 40px 75px;
     margin: 70px 70px 70px 70px;
@@ -63,4 +64,17 @@ background-color: lightslategray;
 }
 #sec2_div3{
     background-color: linen;
+}
+#sec3_div1{
+    margin: 70px 10opx 60px 30px;
+    padding: 99px 69px 110px 31px;
+    text-align: justify;
+}
+#sec3_div2{
+    padding: 18px 110px 0px 29px;
+    margin: 49px 70px 0px 7px;
+}
+#sec3_div1 img{
+    width: 80%;
+    
 }
