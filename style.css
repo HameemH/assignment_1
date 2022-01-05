@@ -1,0 +1,41 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: x-large;
+}
+.section1{
+    display: flex;
+height: 500px;
+}
+.sec-div{
+    width: 50%;
+}
+.sec-div a{
+    text-decoration: none;
+    color: aquamarine l;
+    background-image: linear-gradient(salmon,lightcoral );
+    padding: 10px;
+    margin-top: 7px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.section1 img{
+    width: 45%;
+}
+h1{
+    font-size: 30px;
+
+}
+#sec1-heading{
+    border-left: 2px solid;
+    border-image: linear-gradient(tomato,red)30 ;
+    border-radius: 1px;
+}
+#sec1_div1{
+    margin: 30px 6opx 10px 70px;
+    padding: 31px 110px 69px 99px;
+    text-align: justify;
+}
+#sec1_div2{
+    padding: 29px 0px 0px 18px;
+    margin: 7px 0px 0px 49px;
+}
